@@ -12,7 +12,7 @@ mongoose.connect(process.env.MNGO_URL,{useNewUrlParser:true,useUnifiedTopology:t
 )
 
 const app = express(); 
-const PORT = process.env.port
+const PORT = process.env.port || 4000
 app.use(express.json())
 
 app.use('/api',routes) //express fn
