@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Description goes here... bla..bla.bla...\r Coffee, apparently. -scoffs like Namyeong-",
   "main": "index.js",
+  
   "scripts": {
+    "start": "node index.js",
     "devS": "nodemon index.js"
   },
   "repository": {
