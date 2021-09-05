@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Description goes here... bla..bla.bla...\r Coffee, apparently. -scoffs like Namyeong-",
+  "main": "index.js",
+  "scripts": {
+    "devS": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rth1-618/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rth1-618/hello-world/issues"
+  },
+  "homepage": "https://github.com/rth1-618/hello-world#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
+  }
+}
