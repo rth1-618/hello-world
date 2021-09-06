@@ -12,7 +12,7 @@ mongoose.connect(process.env.MNGO_URL,{useNewUrlParser:true,useUnifiedTopology:t
 )
 
 const app = express(); 
-const PORT = process.env.port || 4000
+// const PORT = process.env.port || 4000
 app.use(express.json())
 
 app.use('/api',routes) //express fn
@@ -21,8 +21,8 @@ app.get("/",(req,res)=>{
     res.send("Text file sent.")
 })
 
-app.listen(PORT, ()=>{
-    console.log("Server satrted at port: " + PORT)
+app.listen((process.env.PORT || 4000), ()=>{
+    console.log("Server satrted at port ")
 })
 
 app.get("/:id",(req,res)=>{
