@@ -5,7 +5,7 @@
   "main": "index.js",
   
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "devS": "nodemon server.js"
   },
   "repository": {
